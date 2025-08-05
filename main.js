@@ -9,7 +9,7 @@
   const CANVASHEIGHT = 150
   const CANVASID = 'canvas'
 
-  let texts = ['TAP DIMANA AJA YA :)','JANGAN LUPA', 'PAKAI LANDSCAPE MODE', 'HEY', 'COBA LIHAT DEH', 'KATA INI', 'SEPERTINYA ADA YANG ANEH', 'AYO PENCET LAGI', 'AKU GA BOHONG KOK', 'PENCET LAGI', 'AKU TAHU KAMU PASTI KESAL', 'TAPI INI BENER ADA YANG ANEH', 'AKU JANJI', 'INI TERAKHIR KALI', 'PENCET LAGI', 'AYO SEMANGAT', 'KAMU PASTI BISA', 'IHHH KAMU KURANG PENCET ITU', 'AYO DONG', 'IYA INI BENER TERAKHIR KOK', 'YASUDAH DEH', 'I', 'LOVE', 'YOU ♡', 'HAPPY VALENTINE DAY', 'BYE', 'MAAFIN AKU YA', 'KALO AKU BIKIN KAMU SEDIKIT KESAL']
+   let texts = ['Hola niño de ojos bonitos','Conocerte es y será lindo', 'pero aún más lindo', 'es que cada día', 'estas a mi lado', 'Te amo muchito', 'Hola', 'para decirte que Mary', 'Te hizo esto porque', 'te ama mucho ♡', 'ella es la mejor persona', 'que he conocido', 'cuidala mucho porfa', 'Me caes re bien', 'confío en que lo harás', 'Y sobre todo amala y cuidala', 'Soy Darek el mas pro']
 
   let canvas,
     ctx,
