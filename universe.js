@@ -137,7 +137,7 @@ function getRandInterval(min, max) {
 function windowResizeHandler() {
   width = window.innerWidth;
   height = window.innerHeight;
-  starCount = width * starDensity;
+  starCount = Math.max(100, Math.min(2000, width * starDensity));
   // console.log(starCount)
   circleRadius = (width > height ? height / 2 : width / 2);
   circleCenter = {
@@ -147,4 +147,11 @@ function windowResizeHandler() {
 
   canva.setAttribute('width', width);
   canva.setAttribute('height', height);
+  
+  // Recreate stars for new dimensions
+  stars = [];
+  for (var i = 0; i < starCount; i++) {
+    stars[i] = new Star();
+    stars[i].reset();
+  }
 }
